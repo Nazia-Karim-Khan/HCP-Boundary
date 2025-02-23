@@ -1,0 +1,7 @@
+nazia@fedora:~/boundary$ vault write -f kubernetes/config \
+    kubernetes_host=http://0cde-103-95-98-141.ngrok-free.app \
+    kubernetes_ca_cert=@./ca.crt \
+    service_account_jwt=$KUBE_VAULT_TOKEN
+
+vault write kubernetes/creds/auto-managed-sa-and-role \
+    kubernetes_namespace=default
