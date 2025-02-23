@@ -5,3 +5,8 @@ nazia@fedora:~/boundary$ vault write -f kubernetes/config \
 
 vault write kubernetes/creds/auto-managed-sa-and-role \
     kubernetes_namespace=default
+
+
+
+
+Ref: https://developer.hashicorp.com/boundary/tutorials/kubernetes-connect/kubernetes-getting-started-intro
