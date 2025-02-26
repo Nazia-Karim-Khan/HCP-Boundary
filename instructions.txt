@@ -10,3 +10,24 @@ vault write kubernetes/creds/auto-managed-sa-and-role \
 
 
 Ref: https://developer.hashicorp.com/boundary/tutorials/kubernetes-connect/kubernetes-getting-started-intro
+
+
+
+docker run \
+  --network host \
+  --hostname=minio-worker \
+  -v "$(pwd)":/boundary/ \
+  --cap-add IPC_LOCK \
+  hashicorp/boundary-enterprise
+
+ Worker Auth Current Key Id: malformed-riveter-portly-bash-down-charity-gonad-sedation
+  Worker Auth Registration Request: GzusqckarbczHoLGQ4UA25uSRAT1hXL8oMNv5PkLzBBq1DHR2jAmQsqnSgv7ytu9DQjeQcCci99VcHbxjhC2AKqMt46CvBUmbUUBTf5m6ebnGnUcHPpdqb9vdfotwiW74pk9QzbtebhVAJzZ21UxnJPGMdPxKZhD73a1RqdZhGwRJ38uMDFJcp51jjaZ7TkbXBNG5b8r3VEEVgjVemSjDC3bkTshBuSiJeVMmZe8hjH1D6a3ofcfiue2zspr1Nh7nJKZUvf2N7CetXniraiJtMcHFHN7VhwMpEzsnecvtX
+          Worker Auth Storage Path: /boundary/minio-worker
+          Worker Public Proxy Addr: minio-worker:9202
+
+
+
+sk17v4ux5OHSPX2q5sE1
+
+
+csfNRtg5J5oVDHCBq2dCD2vs2kErftgdnv6dfqfx
