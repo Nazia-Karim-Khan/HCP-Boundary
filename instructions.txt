@@ -26,8 +26,3 @@ docker run \
           Worker Public Proxy Addr: minio-worker:9202
 
 
-
-sk17v4ux5OHSPX2q5sE1
-
-
-csfNRtg5J5oVDHCBq2dCD2vs2kErftgdnv6dfqfx
