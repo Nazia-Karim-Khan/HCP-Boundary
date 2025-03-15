@@ -1,0 +1,3 @@
+https://developer.hashicorp.com/boundary/tutorials/host-management/minio-session-rec
+
+
