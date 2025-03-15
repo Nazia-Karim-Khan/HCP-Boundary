@@ -1,0 +1,6 @@
+https://developer.hashicorp.com/boundary/docs/install-boundary/deploy
+
+
+https://developer.hashicorp.com/boundary/docs/configuration
+
+https://docs.google.com/document/d/173Cyb_X6PJ5FiRXBqH6HTONsyD_32QU0coVqYQgyOOs/edit?usp=sharing
